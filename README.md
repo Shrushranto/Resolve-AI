@@ -1,6 +1,6 @@
-# SupportAI — AI-Powered E-Commerce Customer Support Platform
+# ResolveAI — AI-Powered E-Commerce Customer Support Platform
 
-SupportAI is a full-stack web application that enables e-commerce customers to raise support tickets, view orders, chat with an AI support agent, and request/track refunds, while providing support staff an internal dashboard to review tickets, handle escalations, and approve or reject refunds.
+ResolveAI is a full-stack web application that enables e-commerce customers to raise support tickets, view orders, chat with an AI support agent, and request/track refunds, while providing support staff an internal dashboard to review tickets, handle escalations, and approve or reject refunds.
 
 ---
 
