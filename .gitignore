@@ -1,0 +1,84 @@
+# ============================================================
+# Environment & Secrets
+# ============================================================
+.env
+.env.*
+!.env.example
+
+# ============================================================
+# Python / Backend (FastAPI, SQLAlchemy, Alembic, pytest)
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Local & test databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ============================================================
+# Node / Frontend (React, Vite, TypeScript)
+# ============================================================
+node_modules/
+frontend/dist/
+dist-ssr/
+.vite/
+*.tsbuildinfo
+
+# Package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# ============================================================
+# Logs
+# ============================================================
+*.log
+logs/
+
+# ============================================================
+# IDEs & Editors
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================================
+# OS Files
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# Project-Specific Ignored Files
+# ============================================================
+Assignment-SecAndDevOps-FullStackAI-2026.pdf
