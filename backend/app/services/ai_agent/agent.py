@@ -85,7 +85,7 @@ class AgentService:
         if settings.GEMINI_API_KEY:
             try:
                 import google.generativeai as genai
-                genai.configure(api_key=settings.GEMINI_API_KEY)
+                genai.configure(api_key=settings.GEMINI_API_KEY, transport="rest")
                 self._client = genai
             except Exception as e:
                 logger.warning("Failed to initialize Gemini client", error=str(e))
