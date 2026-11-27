@@ -100,6 +100,7 @@ pytest tests/ -v
 
 ## Documentation
 
+- [Project Walkthrough Video](https://drive.google.com/file/d/1wRfXPhOjcQJ0657CH4S9uxrfy7w4Cppg/view?usp=drive_link)
 - [Architecture & AI Agent Flow](docs/architecture.md)
 - [Database Schema & ER Diagram](docs/database-schema.md)
 - [Demo Walkthrough Guide](docs/demo-guide.md)
